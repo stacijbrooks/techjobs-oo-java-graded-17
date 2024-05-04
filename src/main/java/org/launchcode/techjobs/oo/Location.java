@@ -13,6 +13,13 @@ public class Location {
         nextId++;
     }
 
+    // Constructor that takes a string as a parameter and assigns it to the 'value' field,
+    // while also calling the empty constructor to initialize the 'id' field.
+    public Location(String aValue) {
+        this(); // Call the empty constructor to initialize the 'id' field
+        this.value = aValue; // Assign the provided value to the 'value' field
+    }
+
     // TODO: Add a constructor that takes a string as a parameter and assigns it to the 'value' field. The
     //  constructor should also call the empty constructor in order to initialize the 'id' field.
 
@@ -33,6 +40,7 @@ public class Location {
     }
 
     @Override
+    //Code by LaunchCode. This method generates a hash code based on the id field of the Location object.
     public int hashCode() {
         return Objects.hash(getId());
     }
