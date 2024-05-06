@@ -15,6 +15,7 @@ public class Location {
 
     // Constructor that takes a string as a parameter and assigns it to the 'value' field,
     // while also calling the empty constructor to initialize the 'id' field.
+
     public Location(String aValue) {
         this(); // Call the empty constructor to initialize the 'id' field
         this.value = aValue; // Assign the provided value to the 'value' field
