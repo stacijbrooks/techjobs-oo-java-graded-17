@@ -89,15 +89,20 @@ public class Job {
         Job job = (Job) o;
         // Compare the id of the current object with the id of the object being compared
         return id == job.id;
-
+        //Only need to check for same id. Nothing else. So don't need code below.
     //== job.id && Objects.equals(name, job.name) && Objects.equals(employer, job.employer) && Objects.equals(location, job.location) && Objects.equals(positionType, job.positionType) && Objects.equals(coreCompetency, job.coreCompetency);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name, employer, location, positionType, coreCompetency);
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(id, name, employer, location, positionType, coreCompetency);
+//    }
 
+    @Override
+    //The hashCode method is overridden to generate a hash code based on the id field of the Job class
+    public int hashCode() {
+        return Objects.hash(id);
+    }
 
     // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
     //  and id.

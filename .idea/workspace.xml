@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     "Gradle.Build techjobs-oo-java-graded-17.executor": "Run",
     "Gradle.JobTest.testToStringStartsAndEndsWithNewLine.executor": "Run",
     "Gradle.Tests in 'org.launchcode.techjobs.oo'.executor": "Run",
-    "Gradle.Tests in 'techjobs-oo-java17-graded.test'.executor": "Debug",
+    "Gradle.Tests in 'techjobs-oo-java17-graded.test'.executor": "Run",
     "Gradle.techjobs-oo-java-graded-17 [:Main.main()].executor": "Run",
     "JUnit.JobTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,7 +56,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Tests in 'techjobs-oo-java17-graded.test'">
+  <component name="RunManager" selected="JUnit.All in techjobs-oo-java17-graded.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs.oo.Main" />
       <module name="techjobs-oo-java17-graded.main" />
@@ -139,6 +140,14 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="All in techjobs-oo-java17-graded.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="techjobs-oo-java17-graded.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JobTest" type="JUnit" factoryName="JUnit">
       <module name="techjobs-oo-java17-graded.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -157,9 +166,11 @@
       <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
       <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
       <item itemvalue="JUnit.JobTest" />
+      <item itemvalue="JUnit.All in techjobs-oo-java17-graded.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in techjobs-oo-java17-graded.main" />
         <item itemvalue="Gradle.Tests in 'techjobs-oo-java17-graded.test'" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
