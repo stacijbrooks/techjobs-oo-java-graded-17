@@ -81,10 +81,16 @@ public class Job {
 
     @Override
     public boolean equals(Object o) {
+        // Check if the object being compared is the same as the current object
         if (this == o) return true;
+        // Check if the object being compared is null or belongs to a different class
         if (o == null || getClass() != o.getClass()) return false;
+        // Cast the object being compared to a Job object
         Job job = (Job) o;
-        return id == job.id && Objects.equals(name, job.name) && Objects.equals(employer, job.employer) && Objects.equals(location, job.location) && Objects.equals(positionType, job.positionType) && Objects.equals(coreCompetency, job.coreCompetency);
+        // Compare the id of the current object with the id of the object being compared
+        return id == job.id;
+
+    //== job.id && Objects.equals(name, job.name) && Objects.equals(employer, job.employer) && Objects.equals(location, job.location) && Objects.equals(positionType, job.positionType) && Objects.equals(coreCompetency, job.coreCompetency);
     }
 
     @Override
