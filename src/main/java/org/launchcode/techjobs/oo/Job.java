@@ -59,7 +59,7 @@ public class Job {
         // Append Core Competency field label and value (or "Data not available" if empty) followed by a new line
         result += "Core Competency: " + (this.getCoreCompetency().getValue().isEmpty() ? "Data not available" : this.getCoreCompetency().getValue()) + System.lineSeparator();
         // Add a blank line at the end to separate from following text (if any)
-        result += System.lineSeparator();
+       // result += System.lineSeparator();
 
         return result;
     }
